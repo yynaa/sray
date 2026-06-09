@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["GGD", "ESE", "DGG"],
+  "key": {
+    "S": "minecraft:stick",
+    "G": "minecraft:glowstone_dust",
+    "E": "minecraft:emerald",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:glowstone_dust",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 999999,
+        "animation": "none",
+        "has_consume_particles": false
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:item_model": "sray:scanner",
+      "minecraft:custom_name": {
+        "text": "Scan Wand",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "custom_id": "sray_scanner"
+      },
+      "minecraft:lore": ["You might need some charges with that..."]
+    }
+  }
+}

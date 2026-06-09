@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": [0, 0.5, 1]
+          }
+        ]
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/blaze_rod",
+        "tints": []
+      }
+    ]
+  }
+}

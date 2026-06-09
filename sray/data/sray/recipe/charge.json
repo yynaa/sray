@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["GGG", "GDG", "GGG"],
+  "key": {
+    "G": "minecraft:glowstone_dust",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:glowstone_dust",
+    "components": {
+      "minecraft:item_model": "sray:charge",
+      "minecraft:custom_name": {
+        "text": "Scan Charge",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "custom_id": "sray_charge"
+      }
+    },
+    "count": 8
+  }
+}

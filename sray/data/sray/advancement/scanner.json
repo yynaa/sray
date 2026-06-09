@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:glowstone_dust"],
+          "predicates": {
+            "minecraft:custom_data": { "custom_id": "sray_scanner" }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sray:trigger_scan"
+  }
+}
