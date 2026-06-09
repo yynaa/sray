@@ -1,3 +1,5 @@
+gamerule command_block_output false
+
 advancement revoke @a only sray:scanner
 
 scoreboard objectives add sray_wand_cooldown dummy
