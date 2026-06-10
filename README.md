@@ -6,3 +6,7 @@
 ## Configuration
 
 See the `sray:settings` data structure, and the wiki
+
+## Caveats
+
+- Multiplayer is not supported, as all players share the same item displays.

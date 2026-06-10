@@ -2,6 +2,8 @@ data modify storage sray:_scan_block block set from storage sray:settings blocks
 data modify storage sray:_scan_block item set from storage sray:settings blocks[0].item
 data modify storage sray:_scan_block color set from storage sray:settings blocks[0].color
 data modify storage sray:_scan_block range set from storage sray:settings detect_range
+data modify storage sray:_scan_block y_low set from storage sray:_y_bounds y_low
+data modify storage sray:_scan_block y_high set from storage sray:_y_bounds y_high
 
 function sray:scan_block with storage sray:_scan_block
 
